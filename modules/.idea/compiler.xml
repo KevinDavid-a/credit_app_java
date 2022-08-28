@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="entidades" />
+        <module name="servicios" />
+        <module name="webservice" />
+        <module name="commons" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons" target="1.7" />
+      <module name="entidades" target="1.7" />
+      <module name="entidades (1) (com.cmc)" target="1.7" />
+      <module name="servicios" target="1.7" />
+      <module name="webservice" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
